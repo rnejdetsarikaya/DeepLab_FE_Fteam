@@ -84,7 +84,7 @@ html,h1,h2,h3,h4,h5,h6,a{
 	display: block;
 	color: #888;
 	position: absolute;
-	left: 115px;
+	left: 60px;
 }
 .about .desc{
 	padding: 2em;
@@ -112,9 +112,6 @@ html,h1,h2,h3,h4,h5,h6,a{
 	 height: 15rem;
 	 width: 100%;
 	 margin: 1em;
-
-	
-
 }
 
 /*blog style*/
