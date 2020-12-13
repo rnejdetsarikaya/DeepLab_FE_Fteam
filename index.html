@@ -9,9 +9,10 @@
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-md py-4 fixed-top">
+    <header class="header"></header>
+    <nav class="navbar navbar-expand-lg py-4 fixed-top">
         <a class="navbar-brand" href="#">Home</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbaritems">
+        <button type="button" class="navbar-toggler navbar-toggler-right btn" data-toggle="collapse" data-target="#navbaritems" aria-controls="navbaritems" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbaritems">            
@@ -34,7 +35,6 @@
             </ul>
         </div>
     </nav>
-<header class="header">
     <div class="container overlay">
         <div class="row description">
             <div class="col">
@@ -46,30 +46,32 @@
     </div>
 </header>
 
-<!-- About Me -->
+<!-- About Me Section -->
 
-<section id="about" class="py-4">
-    <div class="container-fluid about">
-        <div class="row">
+<section id="about">
+    <div class="container-fluid about pb-5">
+        <div class="about">
             <div class="col">
                 <h1 class="text-capitalize text-center">about me</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-3">
-                <img class="img" src="images/team-3.jpg">
-                <span>S. Web Developer</span>
-            </div>
-            <div class="col-9">
-                <div class="desc">
-                    <h3>D. John</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ab, temporibus hic molestias, cum voluptates neque sint asperiores voluptatum quidem quae inventore explicabo quia unde a in. Non, enim beatae quos ab quam perspiciatis eum iste vel qui ipsam, in molestias nulla accusamus assumenda. Aut id tenetur aliquam quod dolor?</p>
+            </div>        
+            <div class="row">
+                <div class="col-3">
+                    <img class="img" src="images/team-3.jpg">
+                    <p class="text-center">S. Web Developer</p>
+                </div>
+                <div class="col-9">
+                    <div class="desc">
+                        <h3>D. John</h3>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia nisi assumenda distinctio, soluta sequi minima earum et ipsum modi amet? Lorem ipsum dolor sit amet consectetur adipisicing elit. A rerum deleniti nobis atque cumque laboriosam asperiores aspernatur! Debitis architecto sit maiores. Magni harum totam necessitatibus repellat repudiandae voluptatem veritatis reiciendis! Voluptatibus accusantium voluptates dicta asperiores excepturi et maiores quod delectus sint vero ullam, quidem dolor vel? Veritatis dignissimos asperiores excepturi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ab, temporibus hic molestias, cum voluptates neque sint asperiores voluptatum quidem quae inventore explicabo quia unde a in. Non, enim beatae quos ab quam perspiciatis eum iste vel qui ipsam, in molestias nulla accusamus assumenda. Aut id tenetur aliquam quod dolor?</p>
+                    </div>
+                    <br><br>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
+<!-- Portfolio Section -->
 <section id="portfolio">
     <div class="container-fluid portfolio">
         <div class="row">
@@ -77,21 +79,23 @@
                 <h1 class="text-capitalize text-center">Portfolio</h1>
             </div>
         </div>
-        <div class="row">
-            <div class="col-4"><img src="images/portfolio/Classic.jpg"></div>
-            <div class="col-4"><img src="images/portfolio/electric.png"></div>
-            <div class="col-4"><img src="images/portfolio/port1.png"></div>
-        </div>
-        <div class="row">
-            <div class="col-4"><img src="images/portfolio/port11.png"></div>
-            <div class="col-4"><img src="images/portfolio/port13.png"></div>
-            <div class="col-4"><img src="images/portfolio/port3.png"></div>
-        </div>
-        <div class="row">
-            <div class="col-4"><img src="images/portfolio/port6.png"></div>
-            <div class="col-4"><img src="images/portfolio/port7.png"></div>
-            <div class="col-4"><img src="images/portfolio/port8.png"></div>
-        </div>        
+        <div class="row d-flex justify-content-center">
+            <div class="col-12 col-sm-6 col-lg-3 d-flex flex-column align-items-center mb-5">
+                <div><img src="images/portfolio/Classic.jpg"></div>
+                <div><img src="images/portfolio/electric.png"></div>
+                <div><img src="images/portfolio/port1.png"></div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3 d-flex flex-column align-items-center mb-5">
+                <div><img src="images/portfolio/port11.png"></div>
+                <div><img src="images/portfolio/port13.png"></div>
+                <div><img src="images/portfolio/port3.png"></div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3 d-flex flex-column align-items-center mb-5">
+                <div><img src="images/portfolio/port6.png"></div>
+                <div><img src="images/portfolio/port7.png"></div>
+                <div><img src="images/portfolio/port8.png"></div>
+            </div> 
+        </div>       
     </div>
 </section>
 
