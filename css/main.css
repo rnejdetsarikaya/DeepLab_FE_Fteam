@@ -16,7 +16,7 @@ html,h1,h2,h3,h4,h5,h6,a{
 	cursor: pointer;
 }
 .nav-link{
-	margin-right: 1em !important;
+	margin-right: 1rem !important;
 }
 .nav-link:hover{
 	background: #f4f4f4;
@@ -35,7 +35,7 @@ html,h1,h2,h3,h4,h5,h6,a{
 	position: relative;
 	background-image: url('../images/headerback.jpg');
 	background-size: cover;
-	background-position: center;
+	background-position: center;	
 }
 .overlay{
 	position: absolute;
@@ -66,6 +66,8 @@ html,h1,h2,h3,h4,h5,h6,a{
 	background:#F97300;
 	color:#fff;
 }
+
+/* About*/
 .about{
 	margin: 4em 0;
 	padding: 1em;
@@ -83,12 +85,12 @@ html,h1,h2,h3,h4,h5,h6,a{
 .about span{
 	display: block;
 	color: #888;
-	position: absolute;
-	left: 115px;
+	position: relative;
+	left: 1rem;
 }
 .about .desc{
-	padding: 2em;
-	border-left:4px solid #10828C;
+	padding: 5rem;
+	border-left: 4px solid #10828C;
 }
 .about .desc h3{
 	color: #10828C;
@@ -109,7 +111,7 @@ html,h1,h2,h3,h4,h5,h6,a{
 	margin: 2em;	
 }
 .portfolio img{
-	height: 15rem;
+	height: 25rem;
 	width: 100%;
 	margin: 1em;
 }
@@ -129,7 +131,7 @@ html,h1,h2,h3,h4,h5,h6,a{
 }
 .blog .card img{
 	width: 100%;
-	height: 12em;
+	height: 20em;
 }
 @media and (max-width: 768px){
  .team .item img{
@@ -162,23 +164,21 @@ html,h1,h2,h3,h4,h5,h6,a{
 	background: #F97300;
 	color: #fff;
 	text-align: center;
-	border-top-right-radius: 93%;
+	border-bottom-left-radius: 93%;
 	/* border-bottom-left-radius: 93%; */
 	transition:.3s ease-in-out;
 	position: absolute;
-	width: 88%;
-	bottom: 24px;
-
-
+	width: 17rem;
+	/* bottom: 24px; */
 }
 .team .item:hover .des{
-	height: 100%;
+	height: 30%;
 	background:#f973007d;
-    position: absolute;
-	width: 89%;
-	padding: 5em;
+    position: relative;
+	width: 17rem;
+	/* padding: 5em; */
 	top: 0;
-	border-top-right-radius: 0;
+	border-bottom-left-radius: 0;
 	/* border-bottom-left-radius: 0; */
 }
 
